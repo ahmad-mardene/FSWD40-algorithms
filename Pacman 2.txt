@@ -1,0 +1,24 @@
+WHILE there is yellow dots 
+  pacman moves randomy
+END WHILE 
+IF ghost chases pacman from up
+   then pacman moves down , right , left
+END IF   
+IF ghost chases pacman from right
+   then pacman moves down , up , left
+END IF 
+IF ghost chases pacman from down
+   then pacman moves up , right , left
+END IF    
+IF ghost chases pacman from left
+   then pacman moves down , right , up   
+END IF 
+
+IF pacman hits a wall
+    then pacman moves random
+END IF 
+
+     
+
+
+
