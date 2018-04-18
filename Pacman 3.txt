@@ -1,0 +1,27 @@
+IF game starts
+  Red ghost moves in map 
+  after 5s Pink moves in map 
+  after 10s Turquoise ghost moves in map 
+  after 15s Yellow ghost moves in map
+END IF
+IF 
+  ghost detects pacman
+  THEN ghost chases pacman
+END IF
+IF 
+  ghost hits pacman
+  THEN OUTPUT "YOU LOST"
+END IF  
+IF 
+  pacman eats all cakes 
+  THEN OUTPUT "YOU WON"
+  END IF
+ IF 
+   pacman hits Big-Cake
+   THEN ghosts change color to blue
+   ghosts dont chase pacman
+   IF pacman hits ghost
+   THEN ghost goes to start box
+   END IF 
+ END IF  
+
